@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Si fra</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="js/hrlogin.js"></script>
+  </head>
+
+  <body style="background-color:rgba(194, 193, 193, 0.557);">
+    <div class="container">
+      <h1 style="background-color:rgba(61, 62, 69, 0.297);text-align: center;">Si Fra til Qualisoft</h1>
+
+      <h3 style="text-align: center;">Velkommen til Si fra HR Side</h2>
+        <div class="jumbotron text-center">
+          <p>HR Loginn</p>
+          <form class="form" method="post">
+            <div class="form-group">
+                <label for="epost">E-post</label>
+                <input type="text" placeholder="     nora@email.com" id="epost"/>
+            </div>
+            <div class="form-group">
+                <label for="Passord">Passord</label>
+                <input type="text" placeholder="   ********" id="passord"/>
+            </div>
+
+            <div class="form-group">
+                <input type="button" value="Log inn" class="btn btn-primary" onclick="validate()"/>
+                <input type="button" value="Avbryt" class="btn btn-primary" onclick="window.location.href='index.html';"/>
+
+              </div>
+        </form>
+        
+
+    </div>
+    </div>
+  </body>
+</html>
